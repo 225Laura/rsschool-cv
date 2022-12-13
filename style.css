@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #fffffa;
+    background-color: #F1E8E4;
 }
 /* Navigation */
 .nav-list {
@@ -24,8 +24,42 @@ body {
         line-height: 50px;
         text-decoration: none;
 }
+/* Sidebar section */
+img {
+    width: 300px;
+}
+.sidebar-section {
+    width: 370px;
+    padding: 40px 0;
+}
 
 /* Main content section*/
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 40px auto;
+    background-color: #fffffa;
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1)
+}
+.main-content-section {
+    padding: 100px 90px;
+}
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.about-me-name {
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: normal;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
