@@ -60,12 +60,22 @@ a:hover {
 .skills-list,
 .interests-list {
 color: #fffffa;
-   padding: 0 0 0 17px;
+padding: 0 0 0 17px;
+}
+.contacts-list {
+padding-left: 0;
 }
 .contacts-item {
-    
+list-style-type: none;
 }
-
+.img-location,
+.img-email,
+.img-phone,
+.img-GitHub,
+.img-telegram {
+    width: 15px;
+    margin-right: 10px;
+}
 /* Main content section*/
 .main-container {
     display: flex;
@@ -92,6 +102,11 @@ color: #fffffa;
     font-weight: 700;
     line-height: 17px;
     letter-spacing: normal;
+}
+.about-me-description {
+    text-indent: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 .container {
     max-width: 1440px;
