@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1E8E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a:hover {
+    color: #BDBAB2;
+}
+/* Navigation */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 20px 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1C1C1B;   
+}
+/* Sidebar section */
+.my-pic {
+    width: 300px;
+    border-style: solid 5px;
+    box-shadow: 7px 10px 0 0 rgba(0,0,0,0.3);
+}
+.sidebar-section {
+    width: 370px;
+    padding: 40px 40px 0 40px;
+    background-color: #5B4C48;
+}
+.sidebar-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contacts-section,
+.skills-section,
+.interests-section  {
+    margin: 50px 0 0 40px;
+}
+.contacts-list,
+.skills-list,
+.interests-list {
+color: #fffffa;
+padding: 0 0 0 17px;
+}
+.contacts-list {
+padding-left: 0;
+}
+.contacts-item {
+list-style-type: none;
+}
+.img-location,
+.img-email,
+.img-phone,
+.img-GitHub,
+.img-telegram {
+    width: 15px;
+    margin-right: 10px;
+}
+/* Main content section*/
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 10px auto;
+    background-color: #fffffa;
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1)
+}
+.main-content-section {
+    padding: 100px 90px;
+}
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.about-me-name {
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: normal;
+}
+.about-me-description {
+    text-indent: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.projects-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1C1C1B;
+}
+.experience-title {
+    margin-bottom: 0;
+}
+.experience-list {
+    margin-top: 2px;
+}
+.code {
+    font-size: 15px;
+}
+/* Footer section */
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+.footer-year {
+padding:17px 80px;
+margin-top: 0;
+margin-right: 80px;
+line-height: 50px;
+font-size: 17px;
+font-weight: 400;
+color: #1C1C1B;
+}
+.rss-logo {
+width: 70px;
+height:auto;
+margin-top: 25px;
+}
+.footer-github-name {
+padding: 20px 80px;
+margin-top: 0;
+margin-right: 80px;
+line-height: 50px;
+font-size: 17px;
+font-weight: 400;
+color: #1C1C1B;
+text-decoration: none;
+}
