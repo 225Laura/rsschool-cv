@@ -124,6 +124,9 @@ list-style-type: none;
 .experience-list {
     margin-top: 2px;
 }
+.code {
+    font-size: 15px;
+}
 /* Footer section */
 .footer-section {
     display: flex;
